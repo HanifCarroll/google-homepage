@@ -1,0 +1,72 @@
+.nav{
+    float: right;
+    margin-right: 20px;
+}
+
+.nav li{
+    display: inline;
+    float: left;
+    margin: 10px;
+}
+.nav li a {
+    text-decoration: none;
+    color: slategrey;
+    font-size: 18px;
+}
+#main {
+    position: absolute;
+    top:55%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+   
+}
+img {
+    display: block;
+    height: auto;
+    width: 300px;
+    position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 75px;
+  left: 0;
+
+}
+
+.buttonmargin {
+    margin-right: 20px;
+}
+#listleft {
+    float: left;
+    padding-top: 10px;
+}
+
+#listleft li {
+    display: inline;
+    margin: 15px;
+    
+}
+   
+#listright {
+    float: right;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+#listright li {
+    display: inline;
+    margin: 15px;
+}
+
+
+.silverbg {
+    background-color: #f2f2f2;
+    
+}
+
+.silverbg a {
+    font-size: 18px;
+    color: #666;
+}
