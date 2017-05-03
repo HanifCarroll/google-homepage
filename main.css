@@ -1,17 +1,35 @@
 .nav{
     float: right;
-    margin-right: 20px;
+    margin-top: 15px;
+    margin-right: 35px;
 }
-
 .nav li{
     display: inline;
     float: left;
-    margin: 10px;
+    margin: 10px 12px 5px 12px;
 }
 .nav li a {
     text-decoration: none;
     color: slategrey;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: arial;
+}
+#apps {
+    height: auto;
+    width: 20px;
+}
+#notifications {
+    height: auto;
+    width: 23px;
+    margin-left: 10px;
+}
+#profilepic {
+    border-radius: 20px;
+    height: auto;
+    width: 40px;
+    bottom: 6px;
+    left: 5px;
+    position: relative;
 }
 #main {
     position: absolute;
@@ -22,19 +40,40 @@
     text-align: center;
    
 }
-img {
+#logo {
     display: block;
     height: auto;
-    width: 300px;
+    width: 340px;
     position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 75px;
-  left: 0;
-
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 125px;
+    left: 0;
 }
-
+#search {
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,.1);
+    border-radius: 2px;
+    border: 1px solid #D3D3D3;
+    background-image: url(assets/voice.png);
+    background-repeat:no-repeat;
+    background-position: 97% 50%;
+    height: 55px;
+    width: 610px;
+    bottom: 8px;
+    position: relative;
+}
+.button {
+    color: #666;
+    font-family: arial;
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+}
 .buttonmargin {
     margin-right: 20px;
 }
@@ -46,7 +85,6 @@ img {
 #listleft li {
     display: inline;
     margin: 15px;
-    
 }
    
 #listright {
@@ -63,7 +101,6 @@ img {
 
 .silverbg {
     background-color: #f2f2f2;
-    
 }
 
 .silverbg a {
